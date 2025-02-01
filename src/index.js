@@ -5,9 +5,9 @@ const app = express();
 
 //
 // Throws an error if the PORT environment variable is missing.
-//
+// (fm20250201)
 if (!process.env.PORT) {
-    throw new Error("Please specify the port number for the HTTP server with the environment variable PORT.");
+    throw new Error("Please do specify the port number for the HTTP server with the environment variable PORT.");
 }
 
 //
